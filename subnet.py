@@ -1,4 +1,6 @@
-print("NOTICE :- ipaddress should be of combination of 4 8-octate for eg (8octate.8octate.8octate.8octate) 8 octate means 8 bit, full 8 bit =255 ip address shoild not be more than 255 and cidr not more than 32")
+#only class c subnetting
+
+print("NOTICE :- ipaddress should be of combination of 4 8-octate for eg (8octate.8octate.8octate.8octate) , full 8 bit =255 ip address shoild not be more than 255 and cidr not more than 32")
 
 def rec(x):
     if x==8:
